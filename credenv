@@ -1,0 +1,3 @@
+API_URL = 'https://api.langflow.astra.datastax.com/lf/aa18929e-0609-48f3-9baa-bdc808068dca/api/v1/run/0976c4f6-a533-4f94-a4aa-b7fd59de8a0c';
+API_TOKEN = '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';
+AUTH_TOKEN = 'AstraCS:wCXuvGkDLTnhDRUPTPEgzveQ:5cddaac5b140b6cd03ade91508192dae783278d5f0f07efe8940258722bc07d4';
