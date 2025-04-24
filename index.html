@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="chatbot.min.js"></script>
+</head>
+<body>
+    
+    <!-- Main Website Content -->
+    <div class="website-content">
+        <marquee><h1>ChatBot</h1></marquee>
+        <p>This is a sample website with a popup chatbot. Click the chat button in the bottom right to start chatting!</p>
+    </div>
+
+    <!-- Chat Widget Button -->
+    <button class="chat-widget-button" id="chatWidgetButton">
+        <span class="chat-icon">💬</span>
+    </button>
+
+    <!-- Chat Container -->
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <h2>ChatBot</h2>
+            <button class="close-button" id="closeButton">×</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <p>Hi! I'm your chatbot. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
